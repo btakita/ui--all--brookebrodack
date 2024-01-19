@@ -15,10 +15,10 @@
 		"brookers"
 	],
 	"dependencies": {
-		"@ctx-core/dom": "^15.2.36",
-		"ctx-core": "^5.25.2",
+		"@ctx-core/dom": "^15.2.37",
+		"ctx-core": "^5.25.3",
 		"motion": "^10.17.0",
-		"relementjs": "^0.52.2"
+		"relementjs": "^0.52.3"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
