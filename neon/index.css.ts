@@ -1,3 +1,5 @@
+// https://codepen.io/AllThingsSmitty/pen/VzXrgY
+// https://codepen.io/lvrbrtsn/pen/QbrozK
 // language=css
 export default ()=>`
 	.group:hover .neon-teal, .neon-teal:hover {

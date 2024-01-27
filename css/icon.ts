@@ -31,6 +31,7 @@ export function icon_c_<env_T extends relement_env_T>(
 	tag_:tag_T<env_T, HTMLElement>,
 	{
 		bg_url,
+		id,
 		override_class,
 		...props
 	}:icon_c_props_T,
@@ -40,6 +41,7 @@ export function icon_c_<env_T extends relement_env_T>(
 		tag_,
 		{
 			bg_url,
+			id,
 			...override_class_o_(
 				nullish__none_([override_class], ()=>
 					class_(no_size_icon_class, override_class)),
@@ -50,6 +52,7 @@ export function icon_c_<env_T extends relement_env_T>(
 }
 export type icon_c_props_T = {
 	bg_url:string|rmemo_T<string|nullish>
+	id?:string
 	class?:string
 	style?:string
 }&override_class_props_T
