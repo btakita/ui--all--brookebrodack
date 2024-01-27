@@ -23,10 +23,10 @@
 		"spinner"
 	],
 	"dependencies": {
-		"@ctx-core/dom": "^15.3.8",
-		"ctx-core": "^5.31.1",
+		"@ctx-core/dom": "^15.3.9",
+		"ctx-core": "^5.31.2",
 		"motion": "^10.17.0",
-		"relementjs": "^0.57.2"
+		"relementjs": "^0.57.3"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
