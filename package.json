@@ -9,6 +9,7 @@
 		"./brookers": "./brookers/index.ts",
 		"./css": "./css/index.ts",
 		"./icon": "./icon/index.ts",
+		"./neon": "./neon/index.ts",
 		"./spinner": "./spinner/index.ts"
 	},
 	"files": [
@@ -18,6 +19,7 @@
 		"brookers",
 		"css",
 		"icon",
+		"neon",
 		"spinner"
 	],
 	"dependencies": {
