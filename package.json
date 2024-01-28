@@ -26,7 +26,7 @@
 		"@ctx-core/dom": "^15.3.9",
 		"ctx-core": "^5.31.2",
 		"motion": "^10.17.0",
-		"relementjs": "^0.57.3"
+		"relementjs": "^0.57.4"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
