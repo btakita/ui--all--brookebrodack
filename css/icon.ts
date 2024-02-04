@@ -1,9 +1,9 @@
 import { class_ } from 'ctx-core/html'
 import { type nullish, nullish__none_ } from 'ctx-core/rmemo'
-import { type relement_env_T, type rmemo_T, type tag__dom_T } from 'relementjs'
+import { type relement_env_T, type rmemo_T, type tag_dom_T } from 'relementjs'
 import { div_, span_ } from 'relementjs/html'
 import { type tag_T } from 'relementjs/isomorphic'
-import { bg_c_ } from './bg.js'
+import { bg__tag_ } from './bg.js'
 import { override_class_o_, type override_class_props_T } from './class.js'
 export const no_size_icon_class = class_(
 	'inline-block',
@@ -17,13 +17,13 @@ export const icon_class = class_(
 	'w-6')
 export function icon_div_c_<env_T extends relement_env_T>(
 	props:icon_c_props_T,
-	...children:tag__dom_T<env_T>[]
+	...children:tag_dom_T<env_T>[]
 ) {
 	return icon_c_(div_ as tag_T<env_T, HTMLDivElement>, props, ...children)
 }
 export function icon_span_c_<env_T extends relement_env_T>(
 	props:icon_c_props_T,
-	...children:tag__dom_T<env_T>[]
+	...children:tag_dom_T<env_T>[]
 ) {
 	return icon_c_<env_T>(span_ as tag_T<env_T, HTMLSpanElement>, props, ...children)
 }
@@ -35,9 +35,9 @@ export function icon_c_<env_T extends relement_env_T>(
 		override_class,
 		...props
 	}:icon_c_props_T,
-	...children:tag__dom_T<env_T>[]
+	...children:tag_dom_T<env_T>[]
 ) {
-	return bg_c_(
+	return bg__tag_(
 		tag_,
 		{
 			bg_url,

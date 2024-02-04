@@ -6,7 +6,6 @@
 	"types": "src/index.ts",
 	"exports": {
 		".": "./index.ts",
-		"./brookers": "./brookers/index.ts",
 		"./css": "./css/index.ts",
 		"./icon": "./icon/index.ts",
 		"./neon": "./neon/index.ts",

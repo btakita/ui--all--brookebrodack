@@ -2,20 +2,20 @@
 import { background_image_style_, style_ } from 'ctx-core/html'
 import { type nullish, nullish__none_ } from 'ctx-core/rmemo'
 import { run_or_val_ } from 'ctx-core/run'
-import { memo_, type memo_T, type relement_env_T, type tag__dom_T } from 'relementjs'
-import { type known_keys__render_props_T, type render_props_T } from 'relementjs/any'
+import { memo_, type memo_T, type relement_env_T, type tag_dom_T } from 'relementjs'
+import { type tag_props_T } from 'relementjs/any'
 import { type tag_T } from 'relementjs/isomorphic'
-export function bg_c_<env_T extends relement_env_T>(
+export function bg__tag_<env_T extends relement_env_T>(
 	tag_:tag_T<env_T, HTMLElement>,
 	{
 		bg_url,
 		style,
 		...props
-	}:render_props_T&known_keys__render_props_T<Node>&{
+	}:tag_props_T<Node>&{
 		bg_url:string|memo_T<string|nullish>
 		style?:string
 	},
-	...children:tag__dom_T[]
+	...children:tag_dom_T[]
 ) {
 	return tag_({
 		...props,

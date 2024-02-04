@@ -1,1 +1,1 @@
-export * from './spinner_c.ts'
+export * from './spinner__div.js'

@@ -1,7 +1,7 @@
 import { class_ } from 'ctx-core/html'
 import { type relement_env_T } from 'relementjs'
 import { div_, span_ } from 'relementjs/html'
-export function spinner_c_<env_T extends relement_env_T>({
+export function spinner__div_<env_T extends relement_env_T>({
 	class:_class
 }:{
 	class?:string
