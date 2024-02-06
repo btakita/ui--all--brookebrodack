@@ -3,7 +3,7 @@ import { type nullish, nullish__none_ } from 'ctx-core/rmemo'
 import { type relement_env_T, type rmemo_T, type tag_dom_T } from 'relementjs'
 import { div_, span_ } from 'relementjs/html'
 import { type tag_T } from 'relementjs/isomorphic'
-import { bg__tag_ } from './bg.js'
+import { bg__tag_ } from './bg__tag.js'
 import { override_class_o_, type override_class_props_T } from './class.js'
 export const no_size_icon_class = class_(
 	'inline-block',
