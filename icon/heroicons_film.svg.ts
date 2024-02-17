@@ -1,10 +1,12 @@
 import { class_ } from 'ctx-core/html'
-import { path_, svg_ } from 'relementjs/svg'
-export function heroicons_film_(props?:{
+import { raw_, type relement_env_T } from 'relementjs'
+import { path_, style_, svg_ } from 'relementjs/svg'
+export function heroicons_film_<env_T extends relement_env_T>(props?:{
 	class?:string
+	css?:string
 }) {
 	return (
-		svg_({
+		svg_<env_T>({
 			xmlns: 'http://www.w3.org/2000/svg',
 			fill: 'none',
 			viewBox: '0 0 24 24',
@@ -12,6 +14,9 @@ export function heroicons_film_(props?:{
 			stroke: 'currentColor',
 			class: class_(props?.class)
 		}, [
+			props?.css
+				? style_(raw_(props.css))
+				: undefined,
 			path_({
 				'stroke-linecap': 'round',
 				'stroke-linejoin': 'round',

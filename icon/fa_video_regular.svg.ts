@@ -1,5 +1,6 @@
 import { class_ } from 'ctx-core/html'
 import { path_, svg_ } from 'relementjs/svg'
+// !Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.
 export function fa_video_regular_(props?:{
 	class?:string
 }) {
