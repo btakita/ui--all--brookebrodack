@@ -3,6 +3,8 @@ import { raw_, type relement_env_T } from 'relementjs'
 import { path_, style_, svg_ } from 'relementjs/svg'
 export function heroicons_film_<env_T extends relement_env_T>(props?:{
 	class?:string
+	width?:string
+	height?:string
 	css?:string
 }) {
 	return (
@@ -12,7 +14,9 @@ export function heroicons_film_<env_T extends relement_env_T>(props?:{
 			viewBox: '0 0 24 24',
 			'stroke-width': '1.5',
 			stroke: 'currentColor',
-			class: class_(props?.class)
+			...(props?.width ? { width: props.width } : {}),
+			...(props?.height ? { height: props.height } : {}),
+			...(props?.class ? { class: props.class } : {})
 		}, [
 			props?.css
 				? style_(raw_(props.css))
