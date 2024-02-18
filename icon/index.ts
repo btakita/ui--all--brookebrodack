@@ -1,5 +1,6 @@
 export * from './fa_instagram.svg.js'
 export * from './fa_linkedin_in.svg.js'
+export * from './fa_osi.svg.js'
 export * from './fa_patreon.svg.js'
 export * from './fa_video_regular.svg.js'
 export * from './fa_youtube.svg.js'
