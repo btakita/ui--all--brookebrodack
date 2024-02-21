@@ -1,4 +1,3 @@
-import { class_ } from 'ctx-core/html'
 import { raw_, type relement_env_T } from 'relementjs'
 import { path_, style_, svg_ } from 'relementjs/svg'
 export function heroicons_film_<env_T extends relement_env_T>(props?:{
