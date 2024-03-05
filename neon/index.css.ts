@@ -2,7 +2,9 @@
 // https://codepen.io/lvrbrtsn/pen/QbrozK
 // language=css
 export default ()=>`
-	.group:hover .neon-teal, .neon-teal:hover {
+	.group:hover .neon-teal,
+	.group.selected .neon-teal,
+	.neon-teal:hover {
 		color: #000;
 		text-shadow:
 			0 0 2px #fff,
@@ -14,11 +16,15 @@ export default ()=>`
 			0 0 40px #0ff,
 			0 0 60px #0ff;
 	}
-	.group:hover .neon-teal.dark, .neon-teal.dark:hover {
+	.group:hover .neon-teal.dark,
+	.group.selected .neon-teal.dark,
+	.neon-teal.dark:hover {
 		color: #fff;
 	}
 	@media (prefers-color-scheme: dark) {
-		.group:hover .neon-teal, .neon-teal:hover {
+		.group:hover .neon-teal,
+		.group.selected .neon-teal,
+		.neon-teal:hover {
 			color: #fff;
 		}
 	}
