@@ -1,3 +1,4 @@
+export * from './fa_email.svg.js'
 export * from './fa_instagram.svg.js'
 export * from './fa_linkedin.svg.js'
 export * from './fa_osi.svg.js'
